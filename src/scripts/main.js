@@ -1,8 +1,16 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
+// import sayHello from "./hello"
+// import sayGoodbye from "./goodbye"
+// import SandwichMaker from "./sandwichMaker"
 
-sayHello()
-sayGoodbye()
+import APIManager from "./dataManager"
+import addPlaces from "./displayMain"
+import postNewPlace from "./submitNewPlace"
+import printPlacesToDom from "./printPlacesToDom"
 
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+// sayHello()
+// sayGoodbye()
+
+addPlaces()
+
+
+// SandwichMaker.placeOrder("rye", "capicola", "provolone")

@@ -1,4 +1,6 @@
 node_modules
+bundle.js
+database.json
 public/*.js
 bower_components
 __pycache__
